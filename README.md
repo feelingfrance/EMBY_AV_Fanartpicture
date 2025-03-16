@@ -7,3 +7,4 @@
 根据影片的AV番号,去网上下载高清剧照,保存在behind the scenes目录下,并且所有下载的jpg文件自动加上扩展名.mp4<br>
 然后扫描emby影片,就能在页面上显示剧照了<br>
 如果下载的剧照包含poster.jpg封面，自动复制高清剧照到硬盘所在目录，命名为影片名-poster.jpg<br>
+需要pip install PyQt5,安装PyQt5，需要安装环境微软vs_BuildTools，下载地址报错的时候会显示,安装环境的时候选择第一个栏目，然后继续.安装完成后再运行pip install PyQt5<br>
