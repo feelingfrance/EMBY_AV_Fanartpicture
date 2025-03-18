@@ -9,3 +9,4 @@
 如果下载的剧照包含poster.jpg封面，自动复制高清剧照到硬盘所在目录，命名为影片名-poster.jpg<br>
 需要pip install PyQt5,安装PyQt5，需要安装环境微软vs_BuildTools，下载地址报错的时候会显示,安装环境的时候选择第一个栏目，然后继续.安装完成后再运行pip install PyQt5<br>
 picdownload.py文件用所有线程同时下载每个影片的图片，picdownloadonebyonethread.py用一个线程依次下载每个电影的图片。注意picdownload.py同时打开很多个链接<br>
+picdownloadpool2.py可以指定线程数从1-50<br>
